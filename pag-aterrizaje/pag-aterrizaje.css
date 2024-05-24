@@ -1,13 +1,12 @@
-
-.general{
+.general {
     background-color: #AF33EA;
 }
 
-.iconos{
+.iconos {
     position: absolute;
 }
 
-.container{
+.container {
     background-color: #AF33EA;
     display: flex;
     justify-content: space-between;
@@ -15,12 +14,15 @@
     padding: 32px;
 }
 
-.AV-Container{
+.AV-Container {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
 }
-.letter{
+
+.letter {
     color: white;
     font-family: Montserrat, sans-serif;
     font-size: 24px;
@@ -29,19 +31,20 @@
     text-align: center;
 }
 
-.letter-button{
+.letter-button {
     color: #9333EA;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 600;
     position: flex;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
-.button{
+
+.button {
     color: white;
-    border-radius: 6px 6px 6px; 
+    border-radius: 6px 6px 6px;
     border-color: white;
-    background:white;
+    background: white;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 16px;
@@ -52,17 +55,17 @@
 }
 
 
-.titulo{
-   color: white;
-   font-family: Montserrat, sans-serif;
+.titulo {
+    color: white;
+    font-family: Montserrat, sans-serif;
     font-size: 96px;
     font-weight: bold;
     position: flex;
-    
+
 
 }
 
-.subtitulo{
+.subtitulo {
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -73,7 +76,7 @@
     line-height: 32px;
 }
 
-.button-inicio{
+.button-inicio {
     background: #CE22BD;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -86,16 +89,16 @@
     border: none;
 }
 
-.letter-button2{
+.letter-button2 {
     color: white;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 600;
     position: flex;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
-.container2{
+.container2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -103,19 +106,19 @@
     padding-top: 80px;
 }
 
-.letter2{
+.letter2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.button2{
+.button2 {
     display: fixed;
     padding-top: 30px;
 }
 
-.imagen-Container{
+.imagen-Container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,12 +130,12 @@
     object-fit: contain;
 }
 
-.img{
+.img {
     padding-top: 48px;
     border-radius: 8px;
 }
 
-.container1{
+.container1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -140,7 +143,7 @@
     padding-bottom: 80px;
 }
 
-.container3{
+.container3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -148,17 +151,17 @@
 
 }
 
-.letter3{
+.letter3 {
     color: white;
     font-family: Montserrat, sans-serif;
-     font-size: 48px;
-     font-weight: bold;
-     position: flex;
-     
+    font-size: 48px;
+    font-weight: bold;
+    position: flex;
+
 
 }
 
-.container-dialogo{  
+.container-dialogo {
     margin-bottom: 24px;
     width: 585px;
     height: auto;
@@ -166,46 +169,183 @@
 
 }
 
-.letter4{
+.letter4 {
     color: white;
     font-weight: normal;
     font-size: 18px;
     padding: 24px;
- 
 }
- 
-.subtitulo1{
+
+.subtitulo1 {
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: bold;
     position: flex;
     text-align: left;
-    
+
 }
 
-.subtitulo2{
+.subtitulo2 {
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: normal;
     position: flex;
     text-align: left;
-    
+
 }
 
-.img-dialogo{
+.img-dialogo {
     border-radius: 50%;
 
 }
-.container-dialogo1{
-   padding-left: 24px;
-   padding-bottom: 24px;
-   display: flex;
-   
+
+.container-dialogo1 {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    display: flex;
+
 }
 
-.container-dialogo2{
-   padding-left: 16px;
-   padding-top: 6px;
+.container-dialogo2 {
+    padding-left: 16px;
+    padding-top: 6px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background: #9722CE;
+
+}
+
+.container-dialogo3 {
+    margin-bottom: 24px;
+    width: 362px;
+    height: 184px;
+    /* Añadido px para la altura */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    /* Espacio entre columnas */
+    padding: 10px;
+    /* Espacio interior del contenedor */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el tamaño total del contenedor */
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #A521A8;
+    /* Opcional: para ver las columnas mejor */
+    padding: 10px;
+    /* Espacio interior de cada columna */
+    height: 184px;
+    width: 362px;
+}
+
+.img-dialogo2 {
+    padding-bottom: 16px;
+}
+
+.letter5 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.letter6 {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.img-dialogo3 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.letter7 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.container-dialogo4 {
+    background: #BA33EA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #9722CE;
+    padding: 16px;
+    width: 64px;
+    height: 32px;
+    border-radius: 6px;
+
+}
+
+.container-dialogo5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 16px;
+}
+
+.letter8 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-inline: 8px;
+}
+
+.letterAyuda8{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: left;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-inline: 8px;
 }
