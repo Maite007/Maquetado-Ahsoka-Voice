@@ -1,0 +1,221 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #BE2BCD;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  gap: 10px;
+}
+
+header .btn-custom {
+  background-color: #fff;
+  color: #BE2BCD;
+  border: 2px solid #BE2BCD;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+header .btn-custom:hover {
+  background-color: #BE2BCD;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+.logros {
+  display: flex;
+  flex-direction: column;
+}
+
+.logro {
+  background-color: rgba(190, 43, 205, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  color:#BE2BCD;
+}
+
+.logro h2 {
+  margin-right: 0;
+  /*vertical-align: middle;*/
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logro h2 i{
+  margin-right: 10px;
+}
+
+.fecha {
+  background-color: rgba(190, 43, 205, 0.1);
+  font-size: 12px;
+  color: #BE2BCD;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.likes {
+  font-size: 14px;
+  color: #E295EA;
+  display: inline-block;
+}
+
+.acciones button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.acciones button:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #BE2BCD;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.add-new {
+  background-color: #BE2BCD; /* Color estático lila */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.add-new i {
+  margin-right: 10px;
+}
+
+.add-new:hover {
+  background-color: #9E23A9; /* Un poco más oscuro al hacer hover */
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fecha-btn,
+.likes-btn {
+  background-color: rgba(190, 43, 205, 0.1); /* Lila transparente */
+  border: none;
+  color: #BE2BCD;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 5px 10px;
+}
+
+.fecha-btn:hover,
+.likes-btn:hover {
+  background-color: rgba(190, 43, 205, 0.7); /* Lila transparente más oscuro al hacer hover */
+}
+
+.likes-btn i {
+  margin-right: 5px;
+}
+
+/*btones*/
+.btn {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.btn-edit {
+  color: #fff; /* Color morado */
+  background-color: #BE2BCD;
+  align-items: center;
+}
+
+.btn-cancel {
+  color: #fff; /* Color rojo */
+  background-color: #BE2BCD;
+  align-items: center;
+}
+
+.btn-save {
+  color: #fff; /* Color verde */
+  background-color: #BE2BCD;
+   align-items: center;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espacio entre botones */
+  margin-top: 20px; /* Margen superior para separar del formulario */
+}
