@@ -17,9 +17,8 @@
 .AV-Container {
     display: flex;
     justify-content: center;
-    /* Centrar horizontalmente */
     align-items: center;
-    /* Centrar verticalmente */
+
 }
 
 .letter {
@@ -228,17 +227,13 @@
     margin-bottom: 24px;
     width: 362px;
     height: 184px;
-    /* Añadido px para la altura */
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     gap: 32px;
-    /* Espacio entre columnas */
     padding: 10px;
-    /* Espacio interior del contenedor */
     box-sizing: border-box;
-    /* Asegura que el padding no afecte el tamaño total del contenedor */
+    display: grid;
 
 }
 
@@ -249,9 +244,7 @@
     justify-content: center;
     text-align: center;
     background-color: #A521A8;
-    /* Opcional: para ver las columnas mejor */
     padding: 10px;
-    /* Espacio interior de cada columna */
     height: 184px;
     width: 362px;
 }
