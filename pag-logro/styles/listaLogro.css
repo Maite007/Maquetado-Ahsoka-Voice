@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #BE2BCD;
+  background-color: #AF33EA;
   color: white;
   padding: 20px;
   display: flex;
@@ -38,8 +38,8 @@ header h1 {
 
 header .btn-custom {
   background-color: #fff;
-  color: #BE2BCD;
-  border: 2px solid #BE2BCD;
+  color: #9333EA;
+  border: 2px solid;
   border-radius: 10px;
   padding: 10px 20px;
   font-size: 16px;
@@ -69,90 +69,36 @@ main {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
-  color:#BE2BCD;
+  color: #9333EA;
+}
+
+h2 {
+  color: #9333EA;
 }
 
 .logro h2 {
   margin-right: 0;
-  /*vertical-align: middle;*/
   margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
 
-.logro h2 i{
+.logro h2 i {
   margin-right: 10px;
 }
 
 .fecha {
   background-color: rgba(190, 43, 205, 0.1);
   font-size: 12px;
-  color: #BE2BCD;
+  color: #9333EA;
   display: inline-block;
   margin-right: 15px;
 }
 
 .likes {
   font-size: 14px;
-  color: #E295EA;
+  color: #9333EA;
   display: inline-block;
-}
-
-.acciones button {
-  background-color: #eee;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.acciones button:hover {
-  background-color: #ddd;
-}
-
-footer {
-  background-color: #BE2BCD;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-.add-new {
-  background-color: #BE2BCD; /* Color estático lila */
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  display: inline-flex;
-  align-items: center;
-  font-size: 16px;
-  gap: 5px;
-}
-
-.add-new i {
-  margin-right: 10px;
-}
-
-.add-new:hover {
-  background-color: #9E23A9; /* Un poco más oscuro al hacer hover */
-}
-
-.d-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
 }
 
 .fecha-btn,
@@ -170,13 +116,60 @@ footer a:hover {
   background-color: rgba(190, 43, 205, 0.7); /* Lila transparente más oscuro al hacer hover */
 }
 
-.likes-btn i {
-  margin-right: 5px;
+.acciones button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
-/*btones*/
+.acciones button:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #AF33EA;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Especificidad ajustada para .add-new */
+.btn.add-new {
+  background-color: #AF33EA; /* Color estático lila */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+  margin-left: auto; /* Asegura que el botón esté a la derecha */
+}
+
+.btn.add-new i {
+  margin-right: 10px;
+}
+
+.btn.add-new:hover {
+  background-color: #9E23A9; /* Un poco más oscuro al hacer hover */
+}
+
+/* Clase general de botón ajustada */
 .btn {
-  background-color: transparent;
   color: inherit;
   border: none;
   border-radius: 10px;
@@ -191,31 +184,26 @@ footer a:hover {
   margin-right: 5px;
 }
 
-.btn-edit {
-  color: #fff; /* Color morado */
-  background-color: #BE2BCD;
+.btn-edit, .btn-cancel, .btn-save {
+  background-color: #AF33EA; /* Color estático lila */
+  color: white;
   align-items: center;
-}
-
-.btn-cancel {
-  color: #fff; /* Color rojo */
-  background-color: #BE2BCD;
-  align-items: center;
-}
-
-.btn-save {
-  color: #fff; /* Color verde */
-  background-color: #BE2BCD;
-   align-items: center;
 }
 
 .btn:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color:  #9E23A9;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Espacio entre botones */
-  margin-top: 20px; /* Margen superior para separar del formulario */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
